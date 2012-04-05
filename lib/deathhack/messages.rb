@@ -25,6 +25,4 @@ Messages = [  [ "A spiked pit with no spikes.", false ],
               [ "Raising the wand of death high above your head, you break it in two!", true ],
               [ "The wand explodes!  You feel a wrenching sensation.\nYou die...", true ],
               [ "Lightning strikes the coyote.  It explodes!  You die...", true ],
-              [ "Rogue cancels drink; interrupted by carp.", true ]
-
-]
+              [ "Rogue cancels drink; interrupted by carp.", true ]  ]
