@@ -1,0 +1,8 @@
+#! /usr/bin/env ruby
+
+require 'curses'
+require 'deathhack'
+
+require 'deathhack'
+
+DeathHack.begin_game
