@@ -11,7 +11,7 @@ module DeathHack
       begin
         @position = [rand(3..lines),rand(0..cols)]
 
-        @shape = rand(33..126).chr
+        @shape = (33..126).to_a.reject {|n| n == 46 or n == 64}.sample.chr
         @message, @deadly = Messages.sample
       end while Map.creature_overlaps? :position=>@position,:shape=>@shape,:message=>@message
 
